@@ -1,1787 +1,1531 @@
-[
-  {
-    "id": "1",
-    "nome": "Brazil",
-    "nome_pt": "Brasil",
-    "iso2": "BR",
-    "bacen": 1058
-  },
-  {
-    "id": "2",
-    "nome": "Afghanistan",
-    "nome_pt": "Afeganistão",
-    "iso2": "AF",
-    "bacen": 132
-  },
-  {
-    "id": "3",
-    "nome": "Albania",
-    "nome_pt": "Albânia, Republica da",
-    "iso2": "AL",
-    "bacen": 175
-  },
-  {
-    "id": "4",
-    "nome": "Algeria",
-    "nome_pt": "Argélia",
-    "iso2": "DZ",
-    "bacen": 590
-  },
-  {
-    "id": "5",
-    "nome": "American Samoa",
-    "nome_pt": "Samoa Americana",
-    "iso2": "AS",
-    "bacen": 6912
-  },
-  {
-    "id": "6",
-    "nome": "Andorra",
-    "nome_pt": "Andorra",
-    "iso2": "AD",
-    "bacen": 370
-  },
-  {
-    "id": "7",
-    "nome": "Angola",
-    "nome_pt": "Angola",
-    "iso2": "AO",
-    "bacen": 400
-  },
-  {
-    "id": "8",
-    "nome": "Anguilla",
-    "nome_pt": "Anguilla",
-    "iso2": "AI",
-    "bacen": 418
-  },
-  {
-    "id": "9",
-    "nome": "Antarctica",
-    "nome_pt": "Antártida",
-    "iso2": "AQ",
-    "bacen": 3596
-  },
-  {
-    "id": "10",
-    "nome": "Antigua and Barbuda",
-    "nome_pt": "Antigua e Barbuda",
-    "iso2": "AG",
-    "bacen": 434
-  },
-  {
-    "id": "11",
-    "nome": "Argentina",
-    "nome_pt": "Argentina",
-    "iso2": "AR",
-    "bacen": 639
-  },
-  {
-    "id": "12",
-    "nome": "Armenia",
-    "nome_pt": "Armênia, Republica da",
-    "iso2": "AM",
-    "bacen": 647
-  },
-  {
-    "id": "13",
-    "nome": "Aruba",
-    "nome_pt": "Aruba",
-    "iso2": "AW",
-    "bacen": 655
-  },
-  {
-    "id": "14",
-    "nome": "Australia",
-    "nome_pt": "Austrália",
-    "iso2": "AU",
-    "bacen": 698
-  },
-  {
-    "id": "15",
-    "nome": "Austria",
-    "nome_pt": "Áustria",
-    "iso2": "AT",
-    "bacen": 728
-  },
-  {
-    "id": "16",
-    "nome": "Azerbaijan",
-    "nome_pt": "Azerbaijão, Republica do",
-    "iso2": "AZ",
-    "bacen": 736
-  },
-  {
-    "id": "17",
-    "nome": "Bahamas",
-    "nome_pt": "Bahamas, Ilhas",
-    "iso2": "BS",
-    "bacen": 779
-  },
-  {
-    "id": "18",
-    "nome": "Bahrain",
-    "nome_pt": "Bahrein, Ilhas",
-    "iso2": "BH",
-    "bacen": 809
-  },
-  {
-    "id": "19",
-    "nome": "Bangladesh",
-    "nome_pt": "Bangladesh",
-    "iso2": "BD",
-    "bacen": 817
-  },
-  {
-    "id": "20",
-    "nome": "Barbados",
-    "nome_pt": "Barbados",
-    "iso2": "BB",
-    "bacen": 833
-  },
-  {
-    "id": "21",
-    "nome": "Belarus",
-    "nome_pt": "Belarus, Republica da",
-    "iso2": "BY",
-    "bacen": 850
-  },
-  {
-    "id": "22",
-    "nome": "Belgium",
-    "nome_pt": "Bélgica",
-    "iso2": "BE",
-    "bacen": 876
-  },
-  {
-    "id": "23",
-    "nome": "Belize",
-    "nome_pt": "Belize",
-    "iso2": "BZ",
-    "bacen": 884
-  },
-  {
-    "id": "24",
-    "nome": "Benin",
-    "nome_pt": "Benin",
-    "iso2": "BJ",
-    "bacen": 2291
-  },
-  {
-    "id": "25",
-    "nome": "Bermuda",
-    "nome_pt": "Bermudas",
-    "iso2": "BM",
-    "bacen": 906
-  },
-  {
-    "id": "26",
-    "nome": "Bhutan",
-    "nome_pt": "Butão",
-    "iso2": "BT",
-    "bacen": 1198
-  },
-  {
-    "id": "27",
-    "nome": "Bolivia",
-    "nome_pt": "Bolívia",
-    "iso2": "BO",
-    "bacen": 973
-  },
-  {
-    "id": "28",
-    "nome": "Bosnia and Herzegowina",
-    "nome_pt": "Bósnia-herzegovina (Republica da)",
-    "iso2": "BA",
-    "bacen": 981
-  },
-  {
-    "id": "29",
-    "nome": "Botswana",
-    "nome_pt": "Botsuana",
-    "iso2": "BW",
-    "bacen": 1015
-  },
-  {
-    "id": "30",
-    "nome": "Bouvet Island",
-    "nome_pt": "Ilha Bouvet",
-    "iso2": "BV",
-    "bacen": 1023
-  },
-  {
-    "id": "31",
-    "nome": "British Indian Ocean Territory",
-    "nome_pt": "Território Britânico do Oceano Indico",
-    "iso2": "IO",
-    "bacen": 7820
-  },
-  {
-    "id": "32",
-    "nome": "Brunei Darussalam",
-    "nome_pt": "Brunei",
-    "iso2": "BN",
-    "bacen": 1082
-  },
-  {
-    "id": "33",
-    "nome": "Bulgaria",
-    "nome_pt": "Bulgária, Republica da",
-    "iso2": "BG",
-    "bacen": 1112
-  },
-  {
-    "id": "34",
-    "nome": "Burkina Faso",
-    "nome_pt": "Burkina Faso",
-    "iso2": "BF",
-    "bacen": 310
-  },
-  {
-    "id": "35",
-    "nome": "Burundi",
-    "nome_pt": "Burundi",
-    "iso2": "BI",
-    "bacen": 1155
-  },
-  {
-    "id": "36",
-    "nome": "Cambodia",
-    "nome_pt": "Camboja",
-    "iso2": "KH",
-    "bacen": 1414
-  },
-  {
-    "id": "37",
-    "nome": "Cameroon",
-    "nome_pt": "Camarões",
-    "iso2": "CM",
-    "bacen": 1457
-  },
-  {
-    "id": "38",
-    "nome": "Canada",
-    "nome_pt": "Canada",
-    "iso2": "CA",
-    "bacen": 1490
-  },
-  {
-    "id": "39",
-    "nome": "Cape Verde",
-    "nome_pt": "Cabo Verde, Republica de",
-    "iso2": "CV",
-    "bacen": 1279
-  },
-  {
-    "id": "40",
-    "nome": "Cayman Islands",
-    "nome_pt": "Cayman, Ilhas",
-    "iso2": "KY",
-    "bacen": 1376
-  },
-  {
-    "id": "41",
-    "nome": "Central African Republic",
-    "nome_pt": "Republica Centro-Africana",
-    "iso2": "CF",
-    "bacen": 6408
-  },
-  {
-    "id": "42",
-    "nome": "Chad",
-    "nome_pt": "Chade",
-    "iso2": "TD",
-    "bacen": 7889
-  },
-  {
-    "id": "43",
-    "nome": "Chile",
-    "nome_pt": "Chile",
-    "iso2": "CL",
-    "bacen": 1589
-  },
-  {
-    "id": "44",
-    "nome": "China",
-    "nome_pt": "China, Republica Popular",
-    "iso2": "CN",
-    "bacen": 1600
-  },
-  {
-    "id": "45",
-    "nome": "Christmas Island",
-    "nome_pt": "Christmas, Ilha (Navidad)",
-    "iso2": "CX",
-    "bacen": 5118
-  },
-  {
-    "id": "46",
-    "nome": "Cocos (Keeling) Islands",
-    "nome_pt": "Cocos (Keeling), Ilhas",
-    "iso2": "CC",
-    "bacen": 1651
-  },
-  {
-    "id": "47",
-    "nome": "Colombia",
-    "nome_pt": "Colômbia",
-    "iso2": "CO",
-    "bacen": 1694
-  },
-  {
-    "id": "48",
-    "nome": "Comoros",
-    "nome_pt": "Comores, Ilhas",
-    "iso2": "KM",
-    "bacen": 1732
-  },
-  {
-    "id": "49",
-    "nome": "Congo",
-    "nome_pt": "Congo",
-    "iso2": "CG",
-    "bacen": 1775
-  },
-  {
-    "id": "50",
-    "nome": "Congo, the Democratic Republic of the",
-    "nome_pt": "Congo, Republica Democrática do",
-    "iso2": "CD",
-    "bacen": 8885
-  },
-  {
-    "id": "51",
-    "nome": "Cook Islands",
-    "nome_pt": "Cook, Ilhas",
-    "iso2": "CK",
-    "bacen": 1830
-  },
-  {
-    "id": "52",
-    "nome": "Costa Rica",
-    "nome_pt": "Costa Rica",
-    "iso2": "CR",
-    "bacen": 1961
-  },
-  {
-    "id": "53",
-    "nome": "Cote d`Ivoire",
-    "nome_pt": "Costa do Marfim",
-    "iso2": "CI",
-    "bacen": 1937
-  },
-  {
-    "id": "54",
-    "nome": "Croatia (Hrvatska)",
-    "nome_pt": "Croácia (Republica da)",
-    "iso2": "HR",
-    "bacen": 1953
-  },
-  {
-    "id": "55",
-    "nome": "Cuba",
-    "nome_pt": "Cuba",
-    "iso2": "CU",
-    "bacen": 1996
-  },
-  {
-    "id": "56",
-    "nome": "Cyprus",
-    "nome_pt": "Chipre",
-    "iso2": "CY",
-    "bacen": 1635
-  },
-  {
-    "id": "57",
-    "nome": "Czech Republic",
-    "nome_pt": "Tcheca, Republica",
-    "iso2": "CZ",
-    "bacen": 7919
-  },
-  {
-    "id": "58",
-    "nome": "Denmark",
-    "nome_pt": "Dinamarca",
-    "iso2": "DK",
-    "bacen": 2321
-  },
-  {
-    "id": "59",
-    "nome": "Djibouti",
-    "nome_pt": "Djibuti",
-    "iso2": "DJ",
-    "bacen": 7838
-  },
-  {
-    "id": "60",
-    "nome": "Dominica",
-    "nome_pt": "Dominica, Ilha",
-    "iso2": "DM",
-    "bacen": 2356
-  },
-  {
-    "id": "61",
-    "nome": "Dominican Republic",
-    "nome_pt": "Republica Dominicana",
-    "iso2": "DO",
-    "bacen": 6475
-  },
-  {
-    "id": "62",
-    "nome": "East Timor",
-    "nome_pt": "Timor Leste",
-    "iso2": "TL",
-    "bacen": 7951
-  },
-  {
-    "id": "63",
-    "nome": "Ecuador",
-    "nome_pt": "Equador",
-    "iso2": "EC",
-    "bacen": 2399
-  },
-  {
-    "id": "64",
-    "nome": "Egypt",
-    "nome_pt": "Egito",
-    "iso2": "EG",
-    "bacen": 2402
-  },
-  {
-    "id": "65",
-    "nome": "El Salvador",
-    "nome_pt": "El Salvador",
-    "iso2": "SV",
-    "bacen": 6874
-  },
-  {
-    "id": "66",
-    "nome": "Equatorial Guinea",
-    "nome_pt": "Guine-Equatorial",
-    "iso2": "GQ",
-    "bacen": 3310
-  },
-  {
-    "id": "67",
-    "nome": "Eritrea",
-    "nome_pt": "Eritreia",
-    "iso2": "ER",
-    "bacen": 2437
-  },
-  {
-    "id": "68",
-    "nome": "Estonia",
-    "nome_pt": "Estônia, Republica da",
-    "iso2": "EE",
-    "bacen": 2518
-  },
-  {
-    "id": "69",
-    "nome": "Ethiopia",
-    "nome_pt": "Etiópia",
-    "iso2": "ET",
-    "bacen": 2534
-  },
-  {
-    "id": "70",
-    "nome": "Falkland Islands (Malvinas)",
-    "nome_pt": "Falkland (Ilhas Malvinas)",
-    "iso2": "FK",
-    "bacen": 2550
-  },
-  {
-    "id": "71",
-    "nome": "Faroe Islands",
-    "nome_pt": "Feroe, Ilhas",
-    "iso2": "FO",
-    "bacen": 2593
-  },
-  {
-    "id": "72",
-    "nome": "Fiji",
-    "nome_pt": "Fiji",
-    "iso2": "FJ",
-    "bacen": 8702
-  },
-  {
-    "id": "73",
-    "nome": "Finland",
-    "nome_pt": "Finlândia",
-    "iso2": "FI",
-    "bacen": 2712
-  },
-  {
-    "id": "74",
-    "nome": "France",
-    "nome_pt": "Franca",
-    "iso2": "FR",
-    "bacen": 2755
-  },
-  {
-    "id": "76",
-    "nome": "French Guiana",
-    "nome_pt": "Guiana francesa",
-    "iso2": "GF",
-    "bacen": 3255
-  },
-  {
-    "id": "77",
-    "nome": "French Polynesia",
-    "nome_pt": "Polinésia Francesa",
-    "iso2": "PF",
-    "bacen": 5991
-  },
-  {
-    "id": "78",
-    "nome": "French Southern Territories",
-    "nome_pt": "Terras Austrais e Antárticas Francesas",
-    "iso2": "TF",
-    "bacen": 3607
-  },
-  {
-    "id": "79",
-    "nome": "Gabon",
-    "nome_pt": "Gabão",
-    "iso2": "GA",
-    "bacen": 2810
-  },
-  {
-    "id": "80",
-    "nome": "Gambia",
-    "nome_pt": "Gambia",
-    "iso2": "GM",
-    "bacen": 2852
-  },
-  {
-    "id": "81",
-    "nome": "Georgia",
-    "nome_pt": "Georgia, Republica da",
-    "iso2": "GE",
-    "bacen": 2917
-  },
-  {
-    "id": "82",
-    "nome": "Germany",
-    "nome_pt": "Alemanha",
-    "iso2": "DE",
-    "bacen": 230
-  },
-  {
-    "id": "83",
-    "nome": "Ghana",
-    "nome_pt": "Gana",
-    "iso2": "GH",
-    "bacen": 2895
-  },
-  {
-    "id": "84",
-    "nome": "Gibraltar",
-    "nome_pt": "Gibraltar",
-    "iso2": "GI",
-    "bacen": 2933
-  },
-  {
-    "id": "85",
-    "nome": "Greece",
-    "nome_pt": "Grécia",
-    "iso2": "GR",
-    "bacen": 3018
-  },
-  {
-    "id": "86",
-    "nome": "Greenland",
-    "nome_pt": "Groenlândia",
-    "iso2": "GL",
-    "bacen": 3050
-  },
-  {
-    "id": "87",
-    "nome": "Grenada",
-    "nome_pt": "Granada",
-    "iso2": "GD",
-    "bacen": 2976
-  },
-  {
-    "id": "88",
-    "nome": "Guadeloupe",
-    "nome_pt": "Guadalupe",
-    "iso2": "GP",
-    "bacen": 3093
-  },
-  {
-    "id": "89",
-    "nome": "Guam",
-    "nome_pt": "Guam",
-    "iso2": "GU",
-    "bacen": 3131
-  },
-  {
-    "id": "90",
-    "nome": "Guatemala",
-    "nome_pt": "Guatemala",
-    "iso2": "GT",
-    "bacen": 3174
-  },
-  {
-    "id": "91",
-    "nome": "Guinea",
-    "nome_pt": "Guine",
-    "iso2": "GN",
-    "bacen": 3298
-  },
-  {
-    "id": "92",
-    "nome": "Guinea-Bissau",
-    "nome_pt": "Guine-Bissau",
-    "iso2": "GW",
-    "bacen": 3344
-  },
-  {
-    "id": "93",
-    "nome": "Guyana",
-    "nome_pt": "Guiana",
-    "iso2": "GY",
-    "bacen": 3379
-  },
-  {
-    "id": "94",
-    "nome": "Haiti",
-    "nome_pt": "Haiti",
-    "iso2": "HT",
-    "bacen": 3417
-  },
-  {
-    "id": "95",
-    "nome": "Heard and Mc Donald Islands",
-    "nome_pt": "Ilha Heard e Ilhas McDonald",
-    "iso2": "HM",
-    "bacen": 3603
-  },
-  {
-    "id": "96",
-    "nome": "Holy See (Vatican City State)",
-    "nome_pt": "Vaticano, Estado da Cidade do",
-    "iso2": "VA",
-    "bacen": 8486
-  },
-  {
-    "id": "97",
-    "nome": "Honduras",
-    "nome_pt": "Honduras",
-    "iso2": "HN",
-    "bacen": 3450
-  },
-  {
-    "id": "98",
-    "nome": "Hong Kong",
-    "nome_pt": "Hong Kong",
-    "iso2": "HK",
-    "bacen": 3514
-  },
-  {
-    "id": "99",
-    "nome": "Hungary",
-    "nome_pt": "Hungria, Republica da",
-    "iso2": "HU",
-    "bacen": 3557
-  },
-  {
-    "id": "100",
-    "nome": "Iceland",
-    "nome_pt": "Islândia",
-    "iso2": "IS",
-    "bacen": 3794
-  },
-  {
-    "id": "101",
-    "nome": "India",
-    "nome_pt": "Índia",
-    "iso2": "IN",
-    "bacen": 3611
-  },
-  {
-    "id": "102",
-    "nome": "Indonesia",
-    "nome_pt": "Indonésia",
-    "iso2": "ID",
-    "bacen": 3654
-  },
-  {
-    "id": "103",
-    "nome": "Iran (Islamic Republic of)",
-    "nome_pt": "Ira, Republica Islâmica do",
-    "iso2": "IR",
-    "bacen": 3727
-  },
-  {
-    "id": "104",
-    "nome": "Iraq",
-    "nome_pt": "Iraque",
-    "iso2": "IQ",
-    "bacen": 3697
-  },
-  {
-    "id": "105",
-    "nome": "Ireland",
-    "nome_pt": "Irlanda",
-    "iso2": "IE",
-    "bacen": 3751
-  },
-  {
-    "id": "106",
-    "nome": "Israel",
-    "nome_pt": "Israel",
-    "iso2": "IL",
-    "bacen": 3832
-  },
-  {
-    "id": "107",
-    "nome": "Italy",
-    "nome_pt": "Itália",
-    "iso2": "IT",
-    "bacen": 3867
-  },
-  {
-    "id": "108",
-    "nome": "Jamaica",
-    "nome_pt": "Jamaica",
-    "iso2": "JM",
-    "bacen": 3913
-  },
-  {
-    "id": "109",
-    "nome": "Japan",
-    "nome_pt": "Japão",
-    "iso2": "JP",
-    "bacen": 3999
-  },
-  {
-    "id": "110",
-    "nome": "Jordan",
-    "nome_pt": "Jordânia",
-    "iso2": "JO",
-    "bacen": 4030
-  },
-  {
-    "id": "111",
-    "nome": "Kazakhstan",
-    "nome_pt": "Cazaquistão, Republica do",
-    "iso2": "KZ",
-    "bacen": 1538
-  },
-  {
-    "id": "112",
-    "nome": "Kenya",
-    "nome_pt": "Quênia",
-    "iso2": "KE",
-    "bacen": 6238
-  },
-  {
-    "id": "113",
-    "nome": "Kiribati",
-    "nome_pt": "Kiribati",
-    "iso2": "KI",
-    "bacen": 4111
-  },
-  {
-    "id": "114",
-    "nome": "Korea, Democratic People`s Republic of",
-    "nome_pt": "Coreia, Republica Popular Democrática da",
-    "iso2": "KP",
-    "bacen": 1872
-  },
-  {
-    "id": "115",
-    "nome": "Korea, Republic of",
-    "nome_pt": "Coreia, Republica da",
-    "iso2": "KR",
-    "bacen": 1902
-  },
-  {
-    "id": "116",
-    "nome": "Kuwait",
-    "nome_pt": "Kuwait",
-    "iso2": "KW",
-    "bacen": 1988
-  },
-  {
-    "id": "117",
-    "nome": "Kyrgyzstan",
-    "nome_pt": "Quirguiz, Republica",
-    "iso2": "KG",
-    "bacen": 6254
-  },
-  {
-    "id": "118",
-    "nome": "Lao People`s Democratic Republic",
-    "nome_pt": "Laos, Republica Popular Democrática do",
-    "iso2": "LA",
-    "bacen": 4200
-  },
-  {
-    "id": "119",
-    "nome": "Latvia",
-    "nome_pt": "Letônia, Republica da",
-    "iso2": "LV",
-    "bacen": 4278
-  },
-  {
-    "id": "120",
-    "nome": "Lebanon",
-    "nome_pt": "Líbano",
-    "iso2": "LB",
-    "bacen": 4316
-  },
-  {
-    "id": "121",
-    "nome": "Lesotho",
-    "nome_pt": "Lesoto",
-    "iso2": "LS",
-    "bacen": 4260
-  },
-  {
-    "id": "122",
-    "nome": "Liberia",
-    "nome_pt": "Libéria",
-    "iso2": "LR",
-    "bacen": 4340
-  },
-  {
-    "id": "123",
-    "nome": "Libyan Arab Jamahiriya",
-    "nome_pt": "Líbia",
-    "iso2": "LY",
-    "bacen": 4383
-  },
-  {
-    "id": "124",
-    "nome": "Liechtenstein",
-    "nome_pt": "Liechtenstein",
-    "iso2": "LI",
-    "bacen": 4405
-  },
-  {
-    "id": "125",
-    "nome": "Lithuania",
-    "nome_pt": "Lituânia, Republica da",
-    "iso2": "LT",
-    "bacen": 4421
-  },
-  {
-    "id": "126",
-    "nome": "Luxembourg",
-    "nome_pt": "Luxemburgo",
-    "iso2": "LU",
-    "bacen": 4456
-  },
-  {
-    "id": "127",
-    "nome": "Macau",
-    "nome_pt": "Macau",
-    "iso2": "MO",
-    "bacen": 4472
-  },
-  {
-    "id": "128",
-    "nome": "Macedonia, The Former Yugoslav Republic of",
-    "nome_pt": "Macedônia, Antiga Republica Iugoslava",
-    "iso2": "MK",
-    "bacen": 4499
-  },
-  {
-    "id": "129",
-    "nome": "Madagascar",
-    "nome_pt": "Madagascar",
-    "iso2": "MG",
-    "bacen": 4502
-  },
-  {
-    "id": "130",
-    "nome": "Malawi",
-    "nome_pt": "Malavi",
-    "iso2": "MW",
-    "bacen": 4588
-  },
-  {
-    "id": "131",
-    "nome": "Malaysia",
-    "nome_pt": "Malásia",
-    "iso2": "MY",
-    "bacen": 4553
-  },
-  {
-    "id": "132",
-    "nome": "Maldives",
-    "nome_pt": "Maldivas",
-    "iso2": "MV",
-    "bacen": 4618
-  },
-  {
-    "id": "133",
-    "nome": "Mali",
-    "nome_pt": "Mali",
-    "iso2": "ML",
-    "bacen": 4642
-  },
-  {
-    "id": "134",
-    "nome": "Malta",
-    "nome_pt": "Malta",
-    "iso2": "MT",
-    "bacen": 4677
-  },
-  {
-    "id": "135",
-    "nome": "Marshall Islands",
-    "nome_pt": "Marshall, Ilhas",
-    "iso2": "MH",
-    "bacen": 4766
-  },
-  {
-    "id": "136",
-    "nome": "Martinique",
-    "nome_pt": "Martinica",
-    "iso2": "MQ",
-    "bacen": 4774
-  },
-  {
-    "id": "137",
-    "nome": "Mauritania",
-    "nome_pt": "Mauritânia",
-    "iso2": "MR",
-    "bacen": 4880
-  },
-  {
-    "id": "138",
-    "nome": "Mauritius",
-    "nome_pt": "Mauricio",
-    "iso2": "MU",
-    "bacen": 4855
-  },
-  {
-    "id": "139",
-    "nome": "Mayotte",
-    "nome_pt": "Mayotte (Ilhas Francesas)",
-    "iso2": "YT",
-    "bacen": 4898
-  },
-  {
-    "id": "140",
-    "nome": "Mexico",
-    "nome_pt": "México",
-    "iso2": "MX",
-    "bacen": 4936
-  },
-  {
-    "id": "141",
-    "nome": "Micronesia, Federated States of",
-    "nome_pt": "Micronesia",
-    "iso2": "FM",
-    "bacen": 4995
-  },
-  {
-    "id": "142",
-    "nome": "Moldova, Republic of",
-    "nome_pt": "Moldávia, Republica da",
-    "iso2": "MD",
-    "bacen": 4944
-  },
-  {
-    "id": "143",
-    "nome": "Monaco",
-    "nome_pt": "Mônaco",
-    "iso2": "MC",
-    "bacen": 4952
-  },
-  {
-    "id": "144",
-    "nome": "Mongolia",
-    "nome_pt": "Mongólia",
-    "iso2": "MN",
-    "bacen": 4979
-  },
-  {
-    "id": "145",
-    "nome": "Montserrat",
-    "nome_pt": "Montserrat, Ilhas",
-    "iso2": "MS",
-    "bacen": 5010
-  },
-  {
-    "id": "146",
-    "nome": "Morocco",
-    "nome_pt": "Marrocos",
-    "iso2": "MA",
-    "bacen": 4740
-  },
-  {
-    "id": "147",
-    "nome": "Mozambique",
-    "nome_pt": "Moçambique",
-    "iso2": "MZ",
-    "bacen": 5053
-  },
-  {
-    "id": "148",
-    "nome": "Myanmar",
-    "nome_pt": "Mianmar (Birmânia)",
-    "iso2": "MM",
-    "bacen": 930
-  },
-  {
-    "id": "149",
-    "nome": "Namibia",
-    "nome_pt": "Namíbia",
-    "iso2": "NA",
-    "bacen": 5070
-  },
-  {
-    "id": "150",
-    "nome": "Nauru",
-    "nome_pt": "Nauru",
-    "iso2": "NR",
-    "bacen": 5088
-  },
-  {
-    "id": "151",
-    "nome": "Nepal",
-    "nome_pt": "Nepal",
-    "iso2": "NP",
-    "bacen": 5177
-  },
-  {
-    "id": "152",
-    "nome": "Netherlands",
-    "nome_pt": "Países Baixos (Holanda)",
-    "iso2": "NL",
-    "bacen": 5738
-  },
-  {
-    "id": "154",
-    "nome": "New Caledonia",
-    "nome_pt": "Nova Caledonia",
-    "iso2": "NC",
-    "bacen": 5428
-  },
-  {
-    "id": "155",
-    "nome": "New Zealand",
-    "nome_pt": "Nova Zelândia",
-    "iso2": "NZ",
-    "bacen": 5487
-  },
-  {
-    "id": "156",
-    "nome": "Nicaragua",
-    "nome_pt": "Nicarágua",
-    "iso2": "NI",
-    "bacen": 5215
-  },
-  {
-    "id": "157",
-    "nome": "Niger",
-    "nome_pt": "Níger",
-    "iso2": "NE",
-    "bacen": 5258
-  },
-  {
-    "id": "158",
-    "nome": "Nigeria",
-    "nome_pt": "Nigéria",
-    "iso2": "NG",
-    "bacen": 5282
-  },
-  {
-    "id": "159",
-    "nome": "Niue",
-    "nome_pt": "Niue, Ilha",
-    "iso2": "NU",
-    "bacen": 5312
-  },
-  {
-    "id": "160",
-    "nome": "Norfolk Island",
-    "nome_pt": "Norfolk, Ilha",
-    "iso2": "NF",
-    "bacen": 5355
-  },
-  {
-    "id": "161",
-    "nome": "Northern Mariana Islands",
-    "nome_pt": "Marianas do Norte",
-    "iso2": "MP",
-    "bacen": 4723
-  },
-  {
-    "id": "162",
-    "nome": "Norway",
-    "nome_pt": "Noruega",
-    "iso2": "NO",
-    "bacen": 5380
-  },
-  {
-    "id": "163",
-    "nome": "Oman",
-    "nome_pt": "Oma",
-    "iso2": "OM",
-    "bacen": 5568
-  },
-  {
-    "id": "164",
-    "nome": "Pakistan",
-    "nome_pt": "Paquistão",
-    "iso2": "PK",
-    "bacen": 5762
-  },
-  {
-    "id": "165",
-    "nome": "Palau",
-    "nome_pt": "Palau",
-    "iso2": "PW",
-    "bacen": 5754
-  },
-  {
-    "id": "166",
-    "nome": "Panama",
-    "nome_pt": "Panamá",
-    "iso2": "PA",
-    "bacen": 5800
-  },
-  {
-    "id": "167",
-    "nome": "Papua New Guinea",
-    "nome_pt": "Papua Nova Guine",
-    "iso2": "PG",
-    "bacen": 5452
-  },
-  {
-    "id": "168",
-    "nome": "Paraguay",
-    "nome_pt": "Paraguai",
-    "iso2": "PY",
-    "bacen": 5860
-  },
-  {
-    "id": "169",
-    "nome": "Peru",
-    "nome_pt": "Peru",
-    "iso2": "PE",
-    "bacen": 5894
-  },
-  {
-    "id": "170",
-    "nome": "Philippines",
-    "nome_pt": "Filipinas",
-    "iso2": "PH",
-    "bacen": 2674
-  },
-  {
-    "id": "171",
-    "nome": "Pitcairn",
-    "nome_pt": "Pitcairn, Ilha",
-    "iso2": "PN",
-    "bacen": 5932
-  },
-  {
-    "id": "172",
-    "nome": "Poland",
-    "nome_pt": "Polônia, Republica da",
-    "iso2": "PL",
-    "bacen": 6033
-  },
-  {
-    "id": "173",
-    "nome": "Portugal",
-    "nome_pt": "Portugal",
-    "iso2": "PT",
-    "bacen": 6076
-  },
-  {
-    "id": "174",
-    "nome": "Puerto Rico",
-    "nome_pt": "Porto Rico",
-    "iso2": "PR",
-    "bacen": 6114
-  },
-  {
-    "id": "175",
-    "nome": "Qatar",
-    "nome_pt": "Catar",
-    "iso2": "QA",
-    "bacen": 1546
-  },
-  {
-    "id": "176",
-    "nome": "Reunion",
-    "nome_pt": "Reunião, Ilha",
-    "iso2": "RE",
-    "bacen": 6602
-  },
-  {
-    "id": "177",
-    "nome": "Romania",
-    "nome_pt": "Romênia",
-    "iso2": "RO",
-    "bacen": 6700
-  },
-  {
-    "id": "178",
-    "nome": "Russian Federation",
-    "nome_pt": "Rússia, Federação da",
-    "iso2": "RU",
-    "bacen": 6769
-  },
-  {
-    "id": "179",
-    "nome": "Rwanda",
-    "nome_pt": "Ruanda",
-    "iso2": "RW",
-    "bacen": 6750
-  },
-  {
-    "id": "180",
-    "nome": "Saint Kitts and Nevis",
-    "nome_pt": "São Cristovão e Neves, Ilhas",
-    "iso2": "KN",
-    "bacen": 6955
-  },
-  {
-    "id": "181",
-    "nome": "Saint LUCIA",
-    "nome_pt": "Santa Lucia",
-    "iso2": "LC",
-    "bacen": 7153
-  },
-  {
-    "id": "182",
-    "nome": "Saint Vincent and the Grenadines",
-    "nome_pt": "São Vicente e Granadinas",
-    "iso2": "VC",
-    "bacen": 7056
-  },
-  {
-    "id": "183",
-    "nome": "Samoa",
-    "nome_pt": "Samoa",
-    "iso2": "WS",
-    "bacen": 6904
-  },
-  {
-    "id": "184",
-    "nome": "San Marino",
-    "nome_pt": "San Marino",
-    "iso2": "SM",
-    "bacen": 6971
-  },
-  {
-    "id": "185",
-    "nome": "Sao Tome and Principe",
-    "nome_pt": "São Tome e Príncipe, Ilhas",
-    "iso2": "ST",
-    "bacen": 7200
-  },
-  {
-    "id": "186",
-    "nome": "Saudi Arabia",
-    "nome_pt": "Arábia Saudita",
-    "iso2": "SA",
-    "bacen": 531
-  },
-  {
-    "id": "187",
-    "nome": "Senegal",
-    "nome_pt": "Senegal",
-    "iso2": "SN",
-    "bacen": 7285
-  },
-  {
-    "id": "188",
-    "nome": "Seychelles",
-    "nome_pt": "Seychelles",
-    "iso2": "SC",
-    "bacen": 7315
-  },
-  {
-    "id": "189",
-    "nome": "Sierra Leone",
-    "nome_pt": "Serra Leoa",
-    "iso2": "SL",
-    "bacen": 7358
-  },
-  {
-    "id": "190",
-    "nome": "Singapore",
-    "nome_pt": "Cingapura",
-    "iso2": "SG",
-    "bacen": 7412
-  },
-  {
-    "id": "191",
-    "nome": "Slovakia (Slovak Republic)",
-    "nome_pt": "Eslovaca, Republica",
-    "iso2": "SK",
-    "bacen": 2470
-  },
-  {
-    "id": "192",
-    "nome": "Slovenia",
-    "nome_pt": "Eslovênia, Republica da",
-    "iso2": "SI",
-    "bacen": 2461
-  },
-  {
-    "id": "193",
-    "nome": "Solomon Islands",
-    "nome_pt": "Salomão, Ilhas",
-    "iso2": "SB",
-    "bacen": 6777
-  },
-  {
-    "id": "194",
-    "nome": "Somalia",
-    "nome_pt": "Somalia",
-    "iso2": "SO",
-    "bacen": 7480
-  },
-  {
-    "id": "195",
-    "nome": "South Africa",
-    "nome_pt": "África do Sul",
-    "iso2": "ZA",
-    "bacen": 7560
-  },
-  {
-    "id": "196",
-    "nome": "South Georgia and the South Sandwich Islands",
-    "nome_pt": "Ilhas Geórgia do Sul e Sandwich do Sul",
-    "iso2": "GS",
-    "bacen": 2925
-  },
-  {
-    "id": "197",
-    "nome": "Spain",
-    "nome_pt": "Espanha",
-    "iso2": "ES",
-    "bacen": 2453
-  },
-  {
-    "id": "198",
-    "nome": "Sri Lanka",
-    "nome_pt": "Sri Lanka",
-    "iso2": "LK",
-    "bacen": 7501
-  },
-  {
-    "id": "199",
-    "nome": "St. Helena",
-    "nome_pt": "Santa Helena",
-    "iso2": "SH",
-    "bacen": 7102
-  },
-  {
-    "id": "200",
-    "nome": "St. Pierre and Miquelon",
-    "nome_pt": "São Pedro e Miquelon",
-    "iso2": "PM",
-    "bacen": 7005
-  },
-  {
-    "id": "201",
-    "nome": "Sudan",
-    "nome_pt": "Sudão",
-    "iso2": "SD",
-    "bacen": 7595
-  },
-  {
-    "id": "202",
-    "nome": "Suriname",
-    "nome_pt": "Suriname",
-    "iso2": "SR",
-    "bacen": 7706
-  },
-  {
-    "id": "203",
-    "nome": "Svalbard and Jan Mayen Islands",
-    "nome_pt": "Svalbard e Jan Mayen",
-    "iso2": "SJ",
-    "bacen": 7552
-  },
-  {
-    "id": "204",
-    "nome": "Swaziland",
-    "nome_pt": "Suazilândia",
-    "iso2": "SZ",
-    "bacen": 7544
-  },
-  {
-    "id": "205",
-    "nome": "Sweden",
-    "nome_pt": "Suécia",
-    "iso2": "SE",
-    "bacen": 7641
-  },
-  {
-    "id": "206",
-    "nome": "Switzerland",
-    "nome_pt": "Suíça",
-    "iso2": "CH",
-    "bacen": 7676
-  },
-  {
-    "id": "207",
-    "nome": "Syrian Arab Republic",
-    "nome_pt": "Síria, Republica Árabe da",
-    "iso2": "SY",
-    "bacen": 7447
-  },
-  {
-    "id": "208",
-    "nome": "Taiwan, Province of China",
-    "nome_pt": "Formosa (Taiwan)",
-    "iso2": "TW",
-    "bacen": 1619
-  },
-  {
-    "id": "209",
-    "nome": "Tajikistan",
-    "nome_pt": "Tadjiquistao, Republica do",
-    "iso2": "TJ",
-    "bacen": 7722
-  },
-  {
-    "id": "210",
-    "nome": "Tanzania, United Republic of",
-    "nome_pt": "Tanzânia, Republica Unida da",
-    "iso2": "TZ",
-    "bacen": 7803
-  },
-  {
-    "id": "211",
-    "nome": "Thailand",
-    "nome_pt": "Tailândia",
-    "iso2": "TH",
-    "bacen": 7765
-  },
-  {
-    "id": "212",
-    "nome": "Togo",
-    "nome_pt": "Togo",
-    "iso2": "TG",
-    "bacen": 8001
-  },
-  {
-    "id": "213",
-    "nome": "Tokelau",
-    "nome_pt": "Toquelau, Ilhas",
-    "iso2": "TK",
-    "bacen": 8052
-  },
-  {
-    "id": "214",
-    "nome": "Tonga",
-    "nome_pt": "Tonga",
-    "iso2": "TO",
-    "bacen": 8109
-  },
-  {
-    "id": "215",
-    "nome": "Trinidad and Tobago",
-    "nome_pt": "Trinidad e Tobago",
-    "iso2": "TT",
-    "bacen": 8150
-  },
-  {
-    "id": "216",
-    "nome": "Tunisia",
-    "nome_pt": "Tunísia",
-    "iso2": "TN",
-    "bacen": 8206
-  },
-  {
-    "id": "217",
-    "nome": "Turkey",
-    "nome_pt": "Turquia",
-    "iso2": "TR",
-    "bacen": 8273
-  },
-  {
-    "id": "218",
-    "nome": "Turkmenistan",
-    "nome_pt": "Turcomenistão, Republica do",
-    "iso2": "TM",
-    "bacen": 8249
-  },
-  {
-    "id": "219",
-    "nome": "Turks and Caicos Islands",
-    "nome_pt": "Turcas e Caicos, Ilhas",
-    "iso2": "TC",
-    "bacen": 8230
-  },
-  {
-    "id": "220",
-    "nome": "Tuvalu",
-    "nome_pt": "Tuvalu",
-    "iso2": "TV",
-    "bacen": 8281
-  },
-  {
-    "id": "221",
-    "nome": "Uganda",
-    "nome_pt": "Uganda",
-    "iso2": "UG",
-    "bacen": 8338
-  },
-  {
-    "id": "222",
-    "nome": "Ukraine",
-    "nome_pt": "Ucrânia",
-    "iso2": "UA",
-    "bacen": 8311
-  },
-  {
-    "id": "223",
-    "nome": "United Arab Emirates",
-    "nome_pt": "Emirados Árabes Unidos",
-    "iso2": "AE",
-    "bacen": 2445
-  },
-  {
-    "id": "224",
-    "nome": "United Kingdom",
-    "nome_pt": "Reino Unido",
-    "iso2": "GB",
-    "bacen": 6289
-  },
-  {
-    "id": "225",
-    "nome": "United States",
-    "nome_pt": "Estados Unidos",
-    "iso2": "US",
-    "bacen": 2496
-  },
-  {
-    "id": "226",
-    "nome": "United States Minor Outlying Islands",
-    "nome_pt": "Ilhas Menores Distantes dos Estados Unidos",
-    "iso2": "UM",
-    "bacen": 18664
-  },
-  {
-    "id": "227",
-    "nome": "Uruguay",
-    "nome_pt": "Uruguai",
-    "iso2": "UY",
-    "bacen": 8451
-  },
-  {
-    "id": "228",
-    "nome": "Uzbekistan",
-    "nome_pt": "Uzbequistão, Republica do",
-    "iso2": "UZ",
-    "bacen": 8478
-  },
-  {
-    "id": "229",
-    "nome": "Vanuatu",
-    "nome_pt": "Vanuatu",
-    "iso2": "VU",
-    "bacen": 5517
-  },
-  {
-    "id": "230",
-    "nome": "Venezuela",
-    "nome_pt": "Venezuela",
-    "iso2": "VE",
-    "bacen": 8508
-  },
-  {
-    "id": "231",
-    "nome": "Viet Nam",
-    "nome_pt": "Vietnã",
-    "iso2": "VN",
-    "bacen": 8583
-  },
-  {
-    "id": "232",
-    "nome": "Virgin Islands (British)",
-    "nome_pt": "Virgens, Ilhas (Britânicas)",
-    "iso2": "VG",
-    "bacen": 8630
-  },
-  {
-    "id": "233",
-    "nome": "Virgin Islands (U.S.)",
-    "nome_pt": "Virgens, Ilhas (E.U.A.)",
-    "iso2": "VI",
-    "bacen": 8664
-  },
-  {
-    "id": "234",
-    "nome": "Wallis and Futuna Islands",
-    "nome_pt": "Wallis e Futuna, Ilhas",
-    "iso2": "WF",
-    "bacen": 8753
-  },
-  {
-    "id": "235",
-    "nome": "Western Sahara",
-    "nome_pt": "Saara Ocidental",
-    "iso2": "EH",
-    "bacen": 6858
-  },
-  {
-    "id": "236",
-    "nome": "Yemen",
-    "nome_pt": "Iémen",
-    "iso2": "YE",
-    "bacen": 3573
-  },
-  {
-    "id": "237",
-    "nome": "Yugoslavia",
-    "nome_pt": "Iugoslávia, República Fed. da",
-    "iso2": "YU",
-    "bacen": 3883
-  },
-  {
-    "id": "238",
-    "nome": "Zambia",
-    "nome_pt": "Zâmbia",
-    "iso2": "ZM",
-    "bacen": 8907
-  },
-  {
-    "id": "239",
-    "nome": "Zimbabwe",
-    "nome_pt": "Zimbabue",
-    "iso2": "ZW",
-    "bacen": 6653
-  },
-  {
-    "id": "240",
-    "nome": "Bailiwick of Guernsey",
-    "nome_pt": "Guernsey, Ilha do Canal (Inclui Alderney e Sark)",
-    "iso2": "GG",
-    "bacen": 3212
-  },
-  {
-    "id": "241",
-    "nome": "Bailiwick of Jersey",
-    "nome_pt": "Jersey, Ilha do Canal",
-    "iso2": "JE",
-    "bacen": 3930
-  },
-  {
-    "id": "243",
-    "nome": "Isle of Man",
-    "nome_pt": "Man, Ilha de",
-    "iso2": "IM",
-    "bacen": 3595
-  },
-  {
-    "id": "246",
-    "nome": "Crna Gora (Montenegro)",
-    "nome_pt": "Montenegro",
-    "iso2": "ME",
-    "bacen": 4985
-  },
-  {
-    "id": "247",
-    "nome": "SÉRVIA",
-    "nome_pt": "Republika Srbija",
-    "iso2": "RS",
-    "bacen": 7370
-  },
-  {
-    "id": "248",
-    "nome": "Republic of South Sudan",
-    "nome_pt": "Sudao do Sul",
-    "iso2": "SS",
-    "bacen": 7600
-  },
-  {
-    "id": "249",
-    "nome": "Zona del Canal de Panamá",
-    "nome_pt": "Zona do Canal do Panamá",
-    "iso2": null,
-    "bacen": 8958
-  },
-  {
-    "id": "252",
-    "nome": "Dawlat Filasṭīn",
-    "nome_pt": "Palestina",
-    "iso2": "PS",
-    "bacen": 5780
-  },
-  {
-    "id": "253",
-    "nome": "Åland Islands",
-    "nome_pt": "Ilhas de Aland",
-    "iso2": "AX",
-    "bacen": 153
-  },
-  {
-    "id": "254",
-    "nome": "Saint Barthélemy",
-    "nome_pt": "Coletividade de São Bartolomeu",
-    "iso2": "BL",
-    "bacen": 3598
-  },
-  {
-    "id": "255",
-    "nome": "Curaçao",
-    "nome_pt": "Curaçao",
-    "iso2": "CW",
-    "bacen": 2003
-  },
-  {
-    "id": "256",
-    "nome": "Saint Martin",
-    "nome_pt": "Ilha de São Martinho (França)",
-    "iso2": "SM",
-    "bacen": 6980
-  },
-  {
-    "id": "258",
-    "nome": "Bonaire",
-    "nome_pt": "Bonaire",
-    "iso2": "AN",
-    "bacen": 990
-  },
-  {
-    "id": "259",
-    "nome": "Antartica",
-    "nome_pt": "Antartica",
-    "iso2": "AQ",
-    "bacen": 420
-  },
-  {
-    "id": "260",
-    "nome": "Heard Island and McDonald Islands",
-    "nome_pt": "Ilha Herad e Ilhas Macdonald",
-    "iso2": "AU",
-    "bacen": 3433
-  },
-  {
-    "id": "261",
-    "nome": "Collectivité de Saint-Barthélemy",
-    "nome_pt": "Colectividade de São Bartolomeu",
-    "iso2": "FR",
-    "bacen": 6939
-  },
-  {
-    "id": "262",
-    "nome": "Saint Martin",
-    "nome_pt": "Ilha de São Martinho (Países Baixos)",
-    "iso2": "SM",
-    "bacen": 6998
-  },
-  {
-    "id": "263",
-    "nome": "Territoire des Terres australes et antarctiques françaises",
-    "nome_pt": "Território das Terras Austrais e Antárcticas Francesas",
-    "iso2": "TF",
-    "bacen": 7811
-  }
-]
+[{
+  "id": "1",
+  "nome": "Brazil",
+  "nome_pt": "Brasil",
+  "iso2": "BR",
+  "bacen": 1058
+}, {
+  "id": "2",
+  "nome": "Afghanistan",
+  "nome_pt": "Afeganistão",
+  "iso2": "AF",
+  "bacen": 132
+}, {
+  "id": "3",
+  "nome": "Albania",
+  "nome_pt": "Albânia, Republica da",
+  "iso2": "AL",
+  "bacen": 175
+}, {
+  "id": "4",
+  "nome": "Algeria",
+  "nome_pt": "Argélia",
+  "iso2": "DZ",
+  "bacen": 590
+}, {
+  "id": "5",
+  "nome": "American Samoa",
+  "nome_pt": "Samoa Americana",
+  "iso2": "AS",
+  "bacen": 6912
+}, {
+  "id": "6",
+  "nome": "Andorra",
+  "nome_pt": "Andorra",
+  "iso2": "AD",
+  "bacen": 370
+}, {
+  "id": "7",
+  "nome": "Angola",
+  "nome_pt": "Angola",
+  "iso2": "AO",
+  "bacen": 400
+}, {
+  "id": "8",
+  "nome": "Anguilla",
+  "nome_pt": "Anguilla",
+  "iso2": "AI",
+  "bacen": 418
+}, {
+  "id": "9",
+  "nome": "Antarctica",
+  "nome_pt": "Antártida",
+  "iso2": "AQ",
+  "bacen": 3596
+}, {
+  "id": "10",
+  "nome": "Antigua and Barbuda",
+  "nome_pt": "Antigua e Barbuda",
+  "iso2": "AG",
+  "bacen": 434
+}, {
+  "id": "11",
+  "nome": "Argentina",
+  "nome_pt": "Argentina",
+  "iso2": "AR",
+  "bacen": 639
+}, {
+  "id": "12",
+  "nome": "Armenia",
+  "nome_pt": "Armênia, Republica da",
+  "iso2": "AM",
+  "bacen": 647
+}, {
+  "id": "13",
+  "nome": "Aruba",
+  "nome_pt": "Aruba",
+  "iso2": "AW",
+  "bacen": 655
+}, {
+  "id": "14",
+  "nome": "Australia",
+  "nome_pt": "Austrália",
+  "iso2": "AU",
+  "bacen": 698
+}, {
+  "id": "15",
+  "nome": "Austria",
+  "nome_pt": "Áustria",
+  "iso2": "AT",
+  "bacen": 728
+}, {
+  "id": "16",
+  "nome": "Azerbaijan",
+  "nome_pt": "Azerbaijão, Republica do",
+  "iso2": "AZ",
+  "bacen": 736
+}, {
+  "id": "17",
+  "nome": "Bahamas",
+  "nome_pt": "Bahamas, Ilhas",
+  "iso2": "BS",
+  "bacen": 779
+}, {
+  "id": "18",
+  "nome": "Bahrain",
+  "nome_pt": "Bahrein, Ilhas",
+  "iso2": "BH",
+  "bacen": 809
+}, {
+  "id": "19",
+  "nome": "Bangladesh",
+  "nome_pt": "Bangladesh",
+  "iso2": "BD",
+  "bacen": 817
+}, {
+  "id": "20",
+  "nome": "Barbados",
+  "nome_pt": "Barbados",
+  "iso2": "BB",
+  "bacen": 833
+}, {
+  "id": "21",
+  "nome": "Belarus",
+  "nome_pt": "Belarus, Republica da",
+  "iso2": "BY",
+  "bacen": 850
+}, {
+  "id": "22",
+  "nome": "Belgium",
+  "nome_pt": "Bélgica",
+  "iso2": "BE",
+  "bacen": 876
+}, {
+  "id": "23",
+  "nome": "Belize",
+  "nome_pt": "Belize",
+  "iso2": "BZ",
+  "bacen": 884
+}, {
+  "id": "24",
+  "nome": "Benin",
+  "nome_pt": "Benin",
+  "iso2": "BJ",
+  "bacen": 2291
+}, {
+  "id": "25",
+  "nome": "Bermuda",
+  "nome_pt": "Bermudas",
+  "iso2": "BM",
+  "bacen": 906
+}, {
+  "id": "26",
+  "nome": "Bhutan",
+  "nome_pt": "Butão",
+  "iso2": "BT",
+  "bacen": 1198
+}, {
+  "id": "27",
+  "nome": "Bolivia",
+  "nome_pt": "Bolívia",
+  "iso2": "BO",
+  "bacen": 973
+}, {
+  "id": "28",
+  "nome": "Bosnia and Herzegowina",
+  "nome_pt": "Bósnia-herzegovina (Republica da)",
+  "iso2": "BA",
+  "bacen": 981
+}, {
+  "id": "29",
+  "nome": "Botswana",
+  "nome_pt": "Botsuana",
+  "iso2": "BW",
+  "bacen": 1015
+}, {
+  "id": "30",
+  "nome": "Bouvet Island",
+  "nome_pt": "Ilha Bouvet",
+  "iso2": "BV",
+  "bacen": 1023
+}, {
+  "id": "31",
+  "nome": "British Indian Ocean Territory",
+  "nome_pt": "Território Britânico do Oceano Indico",
+  "iso2": "IO",
+  "bacen": 7820
+}, {
+  "id": "32",
+  "nome": "Brunei Darussalam",
+  "nome_pt": "Brunei",
+  "iso2": "BN",
+  "bacen": 1082
+}, {
+  "id": "33",
+  "nome": "Bulgaria",
+  "nome_pt": "Bulgária, Republica da",
+  "iso2": "BG",
+  "bacen": 1112
+}, {
+  "id": "34",
+  "nome": "Burkina Faso",
+  "nome_pt": "Burkina Faso",
+  "iso2": "BF",
+  "bacen": 310
+}, {
+  "id": "35",
+  "nome": "Burundi",
+  "nome_pt": "Burundi",
+  "iso2": "BI",
+  "bacen": 1155
+}, {
+  "id": "36",
+  "nome": "Cambodia",
+  "nome_pt": "Camboja",
+  "iso2": "KH",
+  "bacen": 1414
+}, {
+  "id": "37",
+  "nome": "Cameroon",
+  "nome_pt": "Camarões",
+  "iso2": "CM",
+  "bacen": 1457
+}, {
+  "id": "38",
+  "nome": "Canada",
+  "nome_pt": "Canada",
+  "iso2": "CA",
+  "bacen": 1490
+}, {
+  "id": "39",
+  "nome": "Cape Verde",
+  "nome_pt": "Cabo Verde, Republica de",
+  "iso2": "CV",
+  "bacen": 1279
+}, {
+  "id": "40",
+  "nome": "Cayman Islands",
+  "nome_pt": "Cayman, Ilhas",
+  "iso2": "KY",
+  "bacen": 1376
+}, {
+  "id": "41",
+  "nome": "Central African Republic",
+  "nome_pt": "Republica Centro-Africana",
+  "iso2": "CF",
+  "bacen": 6408
+}, {
+  "id": "42",
+  "nome": "Chad",
+  "nome_pt": "Chade",
+  "iso2": "TD",
+  "bacen": 7889
+}, {
+  "id": "43",
+  "nome": "Chile",
+  "nome_pt": "Chile",
+  "iso2": "CL",
+  "bacen": 1589
+}, {
+  "id": "44",
+  "nome": "China",
+  "nome_pt": "China, Republica Popular",
+  "iso2": "CN",
+  "bacen": 1600
+}, {
+  "id": "45",
+  "nome": "Christmas Island",
+  "nome_pt": "Christmas, Ilha (Navidad)",
+  "iso2": "CX",
+  "bacen": 5118
+}, {
+  "id": "46",
+  "nome": "Cocos (Keeling) Islands",
+  "nome_pt": "Cocos (Keeling), Ilhas",
+  "iso2": "CC",
+  "bacen": 1651
+}, {
+  "id": "47",
+  "nome": "Colombia",
+  "nome_pt": "Colômbia",
+  "iso2": "CO",
+  "bacen": 1694
+}, {
+  "id": "48",
+  "nome": "Comoros",
+  "nome_pt": "Comores, Ilhas",
+  "iso2": "KM",
+  "bacen": 1732
+}, {
+  "id": "49",
+  "nome": "Congo",
+  "nome_pt": "Congo",
+  "iso2": "CG",
+  "bacen": 1775
+}, {
+  "id": "50",
+  "nome": "Congo, the Democratic Republic of the",
+  "nome_pt": "Congo, Republica Democrática do",
+  "iso2": "CD",
+  "bacen": 8885
+}, {
+  "id": "51",
+  "nome": "Cook Islands",
+  "nome_pt": "Cook, Ilhas",
+  "iso2": "CK",
+  "bacen": 1830
+}, {
+  "id": "52",
+  "nome": "Costa Rica",
+  "nome_pt": "Costa Rica",
+  "iso2": "CR",
+  "bacen": 1961
+}, {
+  "id": "53",
+  "nome": "Cote d`Ivoire",
+  "nome_pt": "Costa do Marfim",
+  "iso2": "CI",
+  "bacen": 1937
+}, {
+  "id": "54",
+  "nome": "Croatia (Hrvatska)",
+  "nome_pt": "Croácia (Republica da)",
+  "iso2": "HR",
+  "bacen": 1953
+}, {
+  "id": "55",
+  "nome": "Cuba",
+  "nome_pt": "Cuba",
+  "iso2": "CU",
+  "bacen": 1996
+}, {
+  "id": "56",
+  "nome": "Cyprus",
+  "nome_pt": "Chipre",
+  "iso2": "CY",
+  "bacen": 1635
+}, {
+  "id": "57",
+  "nome": "Czech Republic",
+  "nome_pt": "Tcheca, Republica",
+  "iso2": "CZ",
+  "bacen": 7919
+}, {
+  "id": "58",
+  "nome": "Denmark",
+  "nome_pt": "Dinamarca",
+  "iso2": "DK",
+  "bacen": 2321
+}, {
+  "id": "59",
+  "nome": "Djibouti",
+  "nome_pt": "Djibuti",
+  "iso2": "DJ",
+  "bacen": 7838
+}, {
+  "id": "60",
+  "nome": "Dominica",
+  "nome_pt": "Dominica, Ilha",
+  "iso2": "DM",
+  "bacen": 2356
+}, {
+  "id": "61",
+  "nome": "Dominican Republic",
+  "nome_pt": "Republica Dominicana",
+  "iso2": "DO",
+  "bacen": 6475
+}, {
+  "id": "62",
+  "nome": "East Timor",
+  "nome_pt": "Timor Leste",
+  "iso2": "TL",
+  "bacen": 7951
+}, {
+  "id": "63",
+  "nome": "Ecuador",
+  "nome_pt": "Equador",
+  "iso2": "EC",
+  "bacen": 2399
+}, {
+  "id": "64",
+  "nome": "Egypt",
+  "nome_pt": "Egito",
+  "iso2": "EG",
+  "bacen": 2402
+}, {
+  "id": "65",
+  "nome": "El Salvador",
+  "nome_pt": "El Salvador",
+  "iso2": "SV",
+  "bacen": 6874
+}, {
+  "id": "66",
+  "nome": "Equatorial Guinea",
+  "nome_pt": "Guine-Equatorial",
+  "iso2": "GQ",
+  "bacen": 3310
+}, {
+  "id": "67",
+  "nome": "Eritrea",
+  "nome_pt": "Eritreia",
+  "iso2": "ER",
+  "bacen": 2437
+}, {
+  "id": "68",
+  "nome": "Estonia",
+  "nome_pt": "Estônia, Republica da",
+  "iso2": "EE",
+  "bacen": 2518
+}, {
+  "id": "69",
+  "nome": "Ethiopia",
+  "nome_pt": "Etiópia",
+  "iso2": "ET",
+  "bacen": 2534
+}, {
+  "id": "70",
+  "nome": "Falkland Islands (Malvinas)",
+  "nome_pt": "Falkland (Ilhas Malvinas)",
+  "iso2": "FK",
+  "bacen": 2550
+}, {
+  "id": "71",
+  "nome": "Faroe Islands",
+  "nome_pt": "Feroe, Ilhas",
+  "iso2": "FO",
+  "bacen": 2593
+}, {
+  "id": "72",
+  "nome": "Fiji",
+  "nome_pt": "Fiji",
+  "iso2": "FJ",
+  "bacen": 8702
+}, {
+  "id": "73",
+  "nome": "Finland",
+  "nome_pt": "Finlândia",
+  "iso2": "FI",
+  "bacen": 2712
+}, {
+  "id": "74",
+  "nome": "France",
+  "nome_pt": "Franca",
+  "iso2": "FR",
+  "bacen": 2755
+}, {
+  "id": "76",
+  "nome": "French Guiana",
+  "nome_pt": "Guiana francesa",
+  "iso2": "GF",
+  "bacen": 3255
+}, {
+  "id": "77",
+  "nome": "French Polynesia",
+  "nome_pt": "Polinésia Francesa",
+  "iso2": "PF",
+  "bacen": 5991
+}, {
+  "id": "78",
+  "nome": "French Southern Territories",
+  "nome_pt": "Terras Austrais e Antárticas Francesas",
+  "iso2": "TF",
+  "bacen": 3607
+}, {
+  "id": "79",
+  "nome": "Gabon",
+  "nome_pt": "Gabão",
+  "iso2": "GA",
+  "bacen": 2810
+}, {
+  "id": "80",
+  "nome": "Gambia",
+  "nome_pt": "Gambia",
+  "iso2": "GM",
+  "bacen": 2852
+}, {
+  "id": "81",
+  "nome": "Georgia",
+  "nome_pt": "Georgia, Republica da",
+  "iso2": "GE",
+  "bacen": 2917
+}, {
+  "id": "82",
+  "nome": "Germany",
+  "nome_pt": "Alemanha",
+  "iso2": "DE",
+  "bacen": 230
+}, {
+  "id": "83",
+  "nome": "Ghana",
+  "nome_pt": "Gana",
+  "iso2": "GH",
+  "bacen": 2895
+}, {
+  "id": "84",
+  "nome": "Gibraltar",
+  "nome_pt": "Gibraltar",
+  "iso2": "GI",
+  "bacen": 2933
+}, {
+  "id": "85",
+  "nome": "Greece",
+  "nome_pt": "Grécia",
+  "iso2": "GR",
+  "bacen": 3018
+}, {
+  "id": "86",
+  "nome": "Greenland",
+  "nome_pt": "Groenlândia",
+  "iso2": "GL",
+  "bacen": 3050
+}, {
+  "id": "87",
+  "nome": "Grenada",
+  "nome_pt": "Granada",
+  "iso2": "GD",
+  "bacen": 2976
+}, {
+  "id": "88",
+  "nome": "Guadeloupe",
+  "nome_pt": "Guadalupe",
+  "iso2": "GP",
+  "bacen": 3093
+}, {
+  "id": "89",
+  "nome": "Guam",
+  "nome_pt": "Guam",
+  "iso2": "GU",
+  "bacen": 3131
+}, {
+  "id": "90",
+  "nome": "Guatemala",
+  "nome_pt": "Guatemala",
+  "iso2": "GT",
+  "bacen": 3174
+}, {
+  "id": "91",
+  "nome": "Guinea",
+  "nome_pt": "Guine",
+  "iso2": "GN",
+  "bacen": 3298
+}, {
+  "id": "92",
+  "nome": "Guinea-Bissau",
+  "nome_pt": "Guine-Bissau",
+  "iso2": "GW",
+  "bacen": 3344
+}, {
+  "id": "93",
+  "nome": "Guyana",
+  "nome_pt": "Guiana",
+  "iso2": "GY",
+  "bacen": 3379
+}, {
+  "id": "94",
+  "nome": "Haiti",
+  "nome_pt": "Haiti",
+  "iso2": "HT",
+  "bacen": 3417
+}, {
+  "id": "95",
+  "nome": "Heard and Mc Donald Islands",
+  "nome_pt": "Ilha Heard e Ilhas McDonald",
+  "iso2": "HM",
+  "bacen": 3603
+}, {
+  "id": "96",
+  "nome": "Holy See (Vatican City State)",
+  "nome_pt": "Vaticano, Estado da Cidade do",
+  "iso2": "VA",
+  "bacen": 8486
+}, {
+  "id": "97",
+  "nome": "Honduras",
+  "nome_pt": "Honduras",
+  "iso2": "HN",
+  "bacen": 3450
+}, {
+  "id": "98",
+  "nome": "Hong Kong",
+  "nome_pt": "Hong Kong",
+  "iso2": "HK",
+  "bacen": 3514
+}, {
+  "id": "99",
+  "nome": "Hungary",
+  "nome_pt": "Hungria, Republica da",
+  "iso2": "HU",
+  "bacen": 3557
+}, {
+  "id": "100",
+  "nome": "Iceland",
+  "nome_pt": "Islândia",
+  "iso2": "IS",
+  "bacen": 3794
+}, {
+  "id": "101",
+  "nome": "India",
+  "nome_pt": "Índia",
+  "iso2": "IN",
+  "bacen": 3611
+}, {
+  "id": "102",
+  "nome": "Indonesia",
+  "nome_pt": "Indonésia",
+  "iso2": "ID",
+  "bacen": 3654
+}, {
+  "id": "103",
+  "nome": "Iran (Islamic Republic of)",
+  "nome_pt": "Ira, Republica Islâmica do",
+  "iso2": "IR",
+  "bacen": 3727
+}, {
+  "id": "104",
+  "nome": "Iraq",
+  "nome_pt": "Iraque",
+  "iso2": "IQ",
+  "bacen": 3697
+}, {
+  "id": "105",
+  "nome": "Ireland",
+  "nome_pt": "Irlanda",
+  "iso2": "IE",
+  "bacen": 3751
+}, {
+  "id": "106",
+  "nome": "Israel",
+  "nome_pt": "Israel",
+  "iso2": "IL",
+  "bacen": 3832
+}, {
+  "id": "107",
+  "nome": "Italy",
+  "nome_pt": "Itália",
+  "iso2": "IT",
+  "bacen": 3867
+}, {
+  "id": "108",
+  "nome": "Jamaica",
+  "nome_pt": "Jamaica",
+  "iso2": "JM",
+  "bacen": 3913
+}, {
+  "id": "109",
+  "nome": "Japan",
+  "nome_pt": "Japão",
+  "iso2": "JP",
+  "bacen": 3999
+}, {
+  "id": "110",
+  "nome": "Jordan",
+  "nome_pt": "Jordânia",
+  "iso2": "JO",
+  "bacen": 4030
+}, {
+  "id": "111",
+  "nome": "Kazakhstan",
+  "nome_pt": "Cazaquistão, Republica do",
+  "iso2": "KZ",
+  "bacen": 1538
+}, {
+  "id": "112",
+  "nome": "Kenya",
+  "nome_pt": "Quênia",
+  "iso2": "KE",
+  "bacen": 6238
+}, {
+  "id": "113",
+  "nome": "Kiribati",
+  "nome_pt": "Kiribati",
+  "iso2": "KI",
+  "bacen": 4111
+}, {
+  "id": "114",
+  "nome": "Korea, Democratic People`s Republic of",
+  "nome_pt": "Coreia, Republica Popular Democrática da",
+  "iso2": "KP",
+  "bacen": 1872
+}, {
+  "id": "115",
+  "nome": "Korea, Republic of",
+  "nome_pt": "Coreia, Republica da",
+  "iso2": "KR",
+  "bacen": 1902
+}, {
+  "id": "116",
+  "nome": "Kuwait",
+  "nome_pt": "Kuwait",
+  "iso2": "KW",
+  "bacen": 1988
+}, {
+  "id": "117",
+  "nome": "Kyrgyzstan",
+  "nome_pt": "Quirguiz, Republica",
+  "iso2": "KG",
+  "bacen": 6254
+}, {
+  "id": "118",
+  "nome": "Lao People`s Democratic Republic",
+  "nome_pt": "Laos, Republica Popular Democrática do",
+  "iso2": "LA",
+  "bacen": 4200
+}, {
+  "id": "119",
+  "nome": "Latvia",
+  "nome_pt": "Letônia, Republica da",
+  "iso2": "LV",
+  "bacen": 4278
+}, {
+  "id": "120",
+  "nome": "Lebanon",
+  "nome_pt": "Líbano",
+  "iso2": "LB",
+  "bacen": 4316
+}, {
+  "id": "121",
+  "nome": "Lesotho",
+  "nome_pt": "Lesoto",
+  "iso2": "LS",
+  "bacen": 4260
+}, {
+  "id": "122",
+  "nome": "Liberia",
+  "nome_pt": "Libéria",
+  "iso2": "LR",
+  "bacen": 4340
+}, {
+  "id": "123",
+  "nome": "Libyan Arab Jamahiriya",
+  "nome_pt": "Líbia",
+  "iso2": "LY",
+  "bacen": 4383
+}, {
+  "id": "124",
+  "nome": "Liechtenstein",
+  "nome_pt": "Liechtenstein",
+  "iso2": "LI",
+  "bacen": 4405
+}, {
+  "id": "125",
+  "nome": "Lithuania",
+  "nome_pt": "Lituânia, Republica da",
+  "iso2": "LT",
+  "bacen": 4421
+}, {
+  "id": "126",
+  "nome": "Luxembourg",
+  "nome_pt": "Luxemburgo",
+  "iso2": "LU",
+  "bacen": 4456
+}, {
+  "id": "127",
+  "nome": "Macau",
+  "nome_pt": "Macau",
+  "iso2": "MO",
+  "bacen": 4472
+}, {
+  "id": "128",
+  "nome": "Macedonia, The Former Yugoslav Republic of",
+  "nome_pt": "Macedônia, Antiga Republica Iugoslava",
+  "iso2": "MK",
+  "bacen": 4499
+}, {
+  "id": "129",
+  "nome": "Madagascar",
+  "nome_pt": "Madagascar",
+  "iso2": "MG",
+  "bacen": 4502
+}, {
+  "id": "130",
+  "nome": "Malawi",
+  "nome_pt": "Malavi",
+  "iso2": "MW",
+  "bacen": 4588
+}, {
+  "id": "131",
+  "nome": "Malaysia",
+  "nome_pt": "Malásia",
+  "iso2": "MY",
+  "bacen": 4553
+}, {
+  "id": "132",
+  "nome": "Maldives",
+  "nome_pt": "Maldivas",
+  "iso2": "MV",
+  "bacen": 4618
+}, {
+  "id": "133",
+  "nome": "Mali",
+  "nome_pt": "Mali",
+  "iso2": "ML",
+  "bacen": 4642
+}, {
+  "id": "134",
+  "nome": "Malta",
+  "nome_pt": "Malta",
+  "iso2": "MT",
+  "bacen": 4677
+}, {
+  "id": "135",
+  "nome": "Marshall Islands",
+  "nome_pt": "Marshall, Ilhas",
+  "iso2": "MH",
+  "bacen": 4766
+}, {
+  "id": "136",
+  "nome": "Martinique",
+  "nome_pt": "Martinica",
+  "iso2": "MQ",
+  "bacen": 4774
+}, {
+  "id": "137",
+  "nome": "Mauritania",
+  "nome_pt": "Mauritânia",
+  "iso2": "MR",
+  "bacen": 4880
+}, {
+  "id": "138",
+  "nome": "Mauritius",
+  "nome_pt": "Mauricio",
+  "iso2": "MU",
+  "bacen": 4855
+}, {
+  "id": "139",
+  "nome": "Mayotte",
+  "nome_pt": "Mayotte (Ilhas Francesas)",
+  "iso2": "YT",
+  "bacen": 4898
+}, {
+  "id": "140",
+  "nome": "Mexico",
+  "nome_pt": "México",
+  "iso2": "MX",
+  "bacen": 4936
+}, {
+  "id": "141",
+  "nome": "Micronesia, Federated States of",
+  "nome_pt": "Micronesia",
+  "iso2": "FM",
+  "bacen": 4995
+}, {
+  "id": "142",
+  "nome": "Moldova, Republic of",
+  "nome_pt": "Moldávia, Republica da",
+  "iso2": "MD",
+  "bacen": 4944
+}, {
+  "id": "143",
+  "nome": "Monaco",
+  "nome_pt": "Mônaco",
+  "iso2": "MC",
+  "bacen": 4952
+}, {
+  "id": "144",
+  "nome": "Mongolia",
+  "nome_pt": "Mongólia",
+  "iso2": "MN",
+  "bacen": 4979
+}, {
+  "id": "145",
+  "nome": "Montserrat",
+  "nome_pt": "Montserrat, Ilhas",
+  "iso2": "MS",
+  "bacen": 5010
+}, {
+  "id": "146",
+  "nome": "Morocco",
+  "nome_pt": "Marrocos",
+  "iso2": "MA",
+  "bacen": 4740
+}, {
+  "id": "147",
+  "nome": "Mozambique",
+  "nome_pt": "Moçambique",
+  "iso2": "MZ",
+  "bacen": 5053
+}, {
+  "id": "148",
+  "nome": "Myanmar",
+  "nome_pt": "Mianmar (Birmânia)",
+  "iso2": "MM",
+  "bacen": 930
+}, {
+  "id": "149",
+  "nome": "Namibia",
+  "nome_pt": "Namíbia",
+  "iso2": "NA",
+  "bacen": 5070
+}, {
+  "id": "150",
+  "nome": "Nauru",
+  "nome_pt": "Nauru",
+  "iso2": "NR",
+  "bacen": 5088
+}, {
+  "id": "151",
+  "nome": "Nepal",
+  "nome_pt": "Nepal",
+  "iso2": "NP",
+  "bacen": 5177
+}, {
+  "id": "152",
+  "nome": "Netherlands",
+  "nome_pt": "Países Baixos (Holanda)",
+  "iso2": "NL",
+  "bacen": 5738
+}, {
+  "id": "154",
+  "nome": "New Caledonia",
+  "nome_pt": "Nova Caledonia",
+  "iso2": "NC",
+  "bacen": 5428
+}, {
+  "id": "155",
+  "nome": "New Zealand",
+  "nome_pt": "Nova Zelândia",
+  "iso2": "NZ",
+  "bacen": 5487
+}, {
+  "id": "156",
+  "nome": "Nicaragua",
+  "nome_pt": "Nicarágua",
+  "iso2": "NI",
+  "bacen": 5215
+}, {
+  "id": "157",
+  "nome": "Niger",
+  "nome_pt": "Níger",
+  "iso2": "NE",
+  "bacen": 5258
+}, {
+  "id": "158",
+  "nome": "Nigeria",
+  "nome_pt": "Nigéria",
+  "iso2": "NG",
+  "bacen": 5282
+}, {
+  "id": "159",
+  "nome": "Niue",
+  "nome_pt": "Niue, Ilha",
+  "iso2": "NU",
+  "bacen": 5312
+}, {
+  "id": "160",
+  "nome": "Norfolk Island",
+  "nome_pt": "Norfolk, Ilha",
+  "iso2": "NF",
+  "bacen": 5355
+}, {
+  "id": "161",
+  "nome": "Northern Mariana Islands",
+  "nome_pt": "Marianas do Norte",
+  "iso2": "MP",
+  "bacen": 4723
+}, {
+  "id": "162",
+  "nome": "Norway",
+  "nome_pt": "Noruega",
+  "iso2": "NO",
+  "bacen": 5380
+}, {
+  "id": "163",
+  "nome": "Oman",
+  "nome_pt": "Oma",
+  "iso2": "OM",
+  "bacen": 5568
+}, {
+  "id": "164",
+  "nome": "Pakistan",
+  "nome_pt": "Paquistão",
+  "iso2": "PK",
+  "bacen": 5762
+}, {
+  "id": "165",
+  "nome": "Palau",
+  "nome_pt": "Palau",
+  "iso2": "PW",
+  "bacen": 5754
+}, {
+  "id": "166",
+  "nome": "Panama",
+  "nome_pt": "Panamá",
+  "iso2": "PA",
+  "bacen": 5800
+}, {
+  "id": "167",
+  "nome": "Papua New Guinea",
+  "nome_pt": "Papua Nova Guine",
+  "iso2": "PG",
+  "bacen": 5452
+}, {
+  "id": "168",
+  "nome": "Paraguay",
+  "nome_pt": "Paraguai",
+  "iso2": "PY",
+  "bacen": 5860
+}, {
+  "id": "169",
+  "nome": "Peru",
+  "nome_pt": "Peru",
+  "iso2": "PE",
+  "bacen": 5894
+}, {
+  "id": "170",
+  "nome": "Philippines",
+  "nome_pt": "Filipinas",
+  "iso2": "PH",
+  "bacen": 2674
+}, {
+  "id": "171",
+  "nome": "Pitcairn",
+  "nome_pt": "Pitcairn, Ilha",
+  "iso2": "PN",
+  "bacen": 5932
+}, {
+  "id": "172",
+  "nome": "Poland",
+  "nome_pt": "Polônia, Republica da",
+  "iso2": "PL",
+  "bacen": 6033
+}, {
+  "id": "173",
+  "nome": "Portugal",
+  "nome_pt": "Portugal",
+  "iso2": "PT",
+  "bacen": 6076
+}, {
+  "id": "174",
+  "nome": "Puerto Rico",
+  "nome_pt": "Porto Rico",
+  "iso2": "PR",
+  "bacen": 6114
+}, {
+  "id": "175",
+  "nome": "Qatar",
+  "nome_pt": "Catar",
+  "iso2": "QA",
+  "bacen": 1546
+}, {
+  "id": "176",
+  "nome": "Reunion",
+  "nome_pt": "Reunião, Ilha",
+  "iso2": "RE",
+  "bacen": 6602
+}, {
+  "id": "177",
+  "nome": "Romania",
+  "nome_pt": "Romênia",
+  "iso2": "RO",
+  "bacen": 6700
+}, {
+  "id": "178",
+  "nome": "Russian Federation",
+  "nome_pt": "Rússia, Federação da",
+  "iso2": "RU",
+  "bacen": 6769
+}, {
+  "id": "179",
+  "nome": "Rwanda",
+  "nome_pt": "Ruanda",
+  "iso2": "RW",
+  "bacen": 6750
+}, {
+  "id": "180",
+  "nome": "Saint Kitts and Nevis",
+  "nome_pt": "São Cristovão e Neves, Ilhas",
+  "iso2": "KN",
+  "bacen": 6955
+}, {
+  "id": "181",
+  "nome": "Saint LUCIA",
+  "nome_pt": "Santa Lucia",
+  "iso2": "LC",
+  "bacen": 7153
+}, {
+  "id": "182",
+  "nome": "Saint Vincent and the Grenadines",
+  "nome_pt": "São Vicente e Granadinas",
+  "iso2": "VC",
+  "bacen": 7056
+}, {
+  "id": "183",
+  "nome": "Samoa",
+  "nome_pt": "Samoa",
+  "iso2": "WS",
+  "bacen": 6904
+}, {
+  "id": "184",
+  "nome": "San Marino",
+  "nome_pt": "San Marino",
+  "iso2": "SM",
+  "bacen": 6971
+}, {
+  "id": "185",
+  "nome": "Sao Tome and Principe",
+  "nome_pt": "São Tome e Príncipe, Ilhas",
+  "iso2": "ST",
+  "bacen": 7200
+}, {
+  "id": "186",
+  "nome": "Saudi Arabia",
+  "nome_pt": "Arábia Saudita",
+  "iso2": "SA",
+  "bacen": 531
+}, {
+  "id": "187",
+  "nome": "Senegal",
+  "nome_pt": "Senegal",
+  "iso2": "SN",
+  "bacen": 7285
+}, {
+  "id": "188",
+  "nome": "Seychelles",
+  "nome_pt": "Seychelles",
+  "iso2": "SC",
+  "bacen": 7315
+}, {
+  "id": "189",
+  "nome": "Sierra Leone",
+  "nome_pt": "Serra Leoa",
+  "iso2": "SL",
+  "bacen": 7358
+}, {
+  "id": "190",
+  "nome": "Singapore",
+  "nome_pt": "Cingapura",
+  "iso2": "SG",
+  "bacen": 7412
+}, {
+  "id": "191",
+  "nome": "Slovakia (Slovak Republic)",
+  "nome_pt": "Eslovaca, Republica",
+  "iso2": "SK",
+  "bacen": 2470
+}, {
+  "id": "192",
+  "nome": "Slovenia",
+  "nome_pt": "Eslovênia, Republica da",
+  "iso2": "SI",
+  "bacen": 2461
+}, {
+  "id": "193",
+  "nome": "Solomon Islands",
+  "nome_pt": "Salomão, Ilhas",
+  "iso2": "SB",
+  "bacen": 6777
+}, {
+  "id": "194",
+  "nome": "Somalia",
+  "nome_pt": "Somalia",
+  "iso2": "SO",
+  "bacen": 7480
+}, {
+  "id": "195",
+  "nome": "South Africa",
+  "nome_pt": "África do Sul",
+  "iso2": "ZA",
+  "bacen": 7560
+}, {
+  "id": "196",
+  "nome": "South Georgia and the South Sandwich Islands",
+  "nome_pt": "Ilhas Geórgia do Sul e Sandwich do Sul",
+  "iso2": "GS",
+  "bacen": 2925
+}, {
+  "id": "197",
+  "nome": "Spain",
+  "nome_pt": "Espanha",
+  "iso2": "ES",
+  "bacen": 2453
+}, {
+  "id": "198",
+  "nome": "Sri Lanka",
+  "nome_pt": "Sri Lanka",
+  "iso2": "LK",
+  "bacen": 7501
+}, {
+  "id": "199",
+  "nome": "St. Helena",
+  "nome_pt": "Santa Helena",
+  "iso2": "SH",
+  "bacen": 7102
+}, {
+  "id": "200",
+  "nome": "St. Pierre and Miquelon",
+  "nome_pt": "São Pedro e Miquelon",
+  "iso2": "PM",
+  "bacen": 7005
+}, {
+  "id": "201",
+  "nome": "Sudan",
+  "nome_pt": "Sudão",
+  "iso2": "SD",
+  "bacen": 7595
+}, {
+  "id": "202",
+  "nome": "Suriname",
+  "nome_pt": "Suriname",
+  "iso2": "SR",
+  "bacen": 7706
+}, {
+  "id": "203",
+  "nome": "Svalbard and Jan Mayen Islands",
+  "nome_pt": "Svalbard e Jan Mayen",
+  "iso2": "SJ",
+  "bacen": 7552
+}, {
+  "id": "204",
+  "nome": "Swaziland",
+  "nome_pt": "Suazilândia",
+  "iso2": "SZ",
+  "bacen": 7544
+}, {
+  "id": "205",
+  "nome": "Sweden",
+  "nome_pt": "Suécia",
+  "iso2": "SE",
+  "bacen": 7641
+}, {
+  "id": "206",
+  "nome": "Switzerland",
+  "nome_pt": "Suíça",
+  "iso2": "CH",
+  "bacen": 7676
+}, {
+  "id": "207",
+  "nome": "Syrian Arab Republic",
+  "nome_pt": "Síria, Republica Árabe da",
+  "iso2": "SY",
+  "bacen": 7447
+}, {
+  "id": "208",
+  "nome": "Taiwan, Province of China",
+  "nome_pt": "Formosa (Taiwan)",
+  "iso2": "TW",
+  "bacen": 1619
+}, {
+  "id": "209",
+  "nome": "Tajikistan",
+  "nome_pt": "Tadjiquistao, Republica do",
+  "iso2": "TJ",
+  "bacen": 7722
+}, {
+  "id": "210",
+  "nome": "Tanzania, United Republic of",
+  "nome_pt": "Tanzânia, Republica Unida da",
+  "iso2": "TZ",
+  "bacen": 7803
+}, {
+  "id": "211",
+  "nome": "Thailand",
+  "nome_pt": "Tailândia",
+  "iso2": "TH",
+  "bacen": 7765
+}, {
+  "id": "212",
+  "nome": "Togo",
+  "nome_pt": "Togo",
+  "iso2": "TG",
+  "bacen": 8001
+}, {
+  "id": "213",
+  "nome": "Tokelau",
+  "nome_pt": "Toquelau, Ilhas",
+  "iso2": "TK",
+  "bacen": 8052
+}, {
+  "id": "214",
+  "nome": "Tonga",
+  "nome_pt": "Tonga",
+  "iso2": "TO",
+  "bacen": 8109
+}, {
+  "id": "215",
+  "nome": "Trinidad and Tobago",
+  "nome_pt": "Trinidad e Tobago",
+  "iso2": "TT",
+  "bacen": 8150
+}, {
+  "id": "216",
+  "nome": "Tunisia",
+  "nome_pt": "Tunísia",
+  "iso2": "TN",
+  "bacen": 8206
+}, {
+  "id": "217",
+  "nome": "Turkey",
+  "nome_pt": "Turquia",
+  "iso2": "TR",
+  "bacen": 8273
+}, {
+  "id": "218",
+  "nome": "Turkmenistan",
+  "nome_pt": "Turcomenistão, Republica do",
+  "iso2": "TM",
+  "bacen": 8249
+}, {
+  "id": "219",
+  "nome": "Turks and Caicos Islands",
+  "nome_pt": "Turcas e Caicos, Ilhas",
+  "iso2": "TC",
+  "bacen": 8230
+}, {
+  "id": "220",
+  "nome": "Tuvalu",
+  "nome_pt": "Tuvalu",
+  "iso2": "TV",
+  "bacen": 8281
+}, {
+  "id": "221",
+  "nome": "Uganda",
+  "nome_pt": "Uganda",
+  "iso2": "UG",
+  "bacen": 8338
+}, {
+  "id": "222",
+  "nome": "Ukraine",
+  "nome_pt": "Ucrânia",
+  "iso2": "UA",
+  "bacen": 8311
+}, {
+  "id": "223",
+  "nome": "United Arab Emirates",
+  "nome_pt": "Emirados Árabes Unidos",
+  "iso2": "AE",
+  "bacen": 2445
+}, {
+  "id": "224",
+  "nome": "United Kingdom",
+  "nome_pt": "Reino Unido",
+  "iso2": "GB",
+  "bacen": 6289
+}, {
+  "id": "225",
+  "nome": "United States",
+  "nome_pt": "Estados Unidos",
+  "iso2": "US",
+  "bacen": 2496
+}, {
+  "id": "226",
+  "nome": "United States Minor Outlying Islands",
+  "nome_pt": "Ilhas Menores Distantes dos Estados Unidos",
+  "iso2": "UM",
+  "bacen": 18664
+}, {
+  "id": "227",
+  "nome": "Uruguay",
+  "nome_pt": "Uruguai",
+  "iso2": "UY",
+  "bacen": 8451
+}, {
+  "id": "228",
+  "nome": "Uzbekistan",
+  "nome_pt": "Uzbequistão, Republica do",
+  "iso2": "UZ",
+  "bacen": 8478
+}, {
+  "id": "229",
+  "nome": "Vanuatu",
+  "nome_pt": "Vanuatu",
+  "iso2": "VU",
+  "bacen": 5517
+}, {
+  "id": "230",
+  "nome": "Venezuela",
+  "nome_pt": "Venezuela",
+  "iso2": "VE",
+  "bacen": 8508
+}, {
+  "id": "231",
+  "nome": "Viet Nam",
+  "nome_pt": "Vietnã",
+  "iso2": "VN",
+  "bacen": 8583
+}, {
+  "id": "232",
+  "nome": "Virgin Islands (British)",
+  "nome_pt": "Virgens, Ilhas (Britânicas)",
+  "iso2": "VG",
+  "bacen": 8630
+}, {
+  "id": "233",
+  "nome": "Virgin Islands (U.S.)",
+  "nome_pt": "Virgens, Ilhas (E.U.A.)",
+  "iso2": "VI",
+  "bacen": 8664
+}, {
+  "id": "234",
+  "nome": "Wallis and Futuna Islands",
+  "nome_pt": "Wallis e Futuna, Ilhas",
+  "iso2": "WF",
+  "bacen": 8753
+}, {
+  "id": "235",
+  "nome": "Western Sahara",
+  "nome_pt": "Saara Ocidental",
+  "iso2": "EH",
+  "bacen": 6858
+}, {
+  "id": "236",
+  "nome": "Yemen",
+  "nome_pt": "Iémen",
+  "iso2": "YE",
+  "bacen": 3573
+}, {
+  "id": "237",
+  "nome": "Yugoslavia",
+  "nome_pt": "Iugoslávia, República Fed. da",
+  "iso2": "YU",
+  "bacen": 3883
+}, {
+  "id": "238",
+  "nome": "Zambia",
+  "nome_pt": "Zâmbia",
+  "iso2": "ZM",
+  "bacen": 8907
+}, {
+  "id": "239",
+  "nome": "Zimbabwe",
+  "nome_pt": "Zimbabue",
+  "iso2": "ZW",
+  "bacen": 6653
+}, {
+  "id": "240",
+  "nome": "Bailiwick of Guernsey",
+  "nome_pt": "Guernsey, Ilha do Canal (Inclui Alderney e Sark)",
+  "iso2": "GG",
+  "bacen": 3212
+}, {
+  "id": "241",
+  "nome": "Bailiwick of Jersey",
+  "nome_pt": "Jersey, Ilha do Canal",
+  "iso2": "JE",
+  "bacen": 3930
+}, {
+  "id": "243",
+  "nome": "Isle of Man",
+  "nome_pt": "Man, Ilha de",
+  "iso2": "IM",
+  "bacen": 3595
+}, {
+  "id": "246",
+  "nome": "Crna Gora (Montenegro)",
+  "nome_pt": "Montenegro",
+  "iso2": "ME",
+  "bacen": 4985
+}, {
+  "id": "247",
+  "nome": "SÉRVIA",
+  "nome_pt": "Republika Srbija",
+  "iso2": "RS",
+  "bacen": 7370
+}, {
+  "id": "248",
+  "nome": "Republic of South Sudan",
+  "nome_pt": "Sudao do Sul",
+  "iso2": "SS",
+  "bacen": 7600
+}, {
+  "id": "249",
+  "nome": "Zona del Canal de Panamá",
+  "nome_pt": "Zona do Canal do Panamá",
+  "iso2": null,
+  "bacen": 8958
+}, {
+  "id": "252",
+  "nome": "Dawlat Filasṭīn",
+  "nome_pt": "Palestina",
+  "iso2": "PS",
+  "bacen": 5780
+}, {
+  "id": "253",
+  "nome": "Åland Islands",
+  "nome_pt": "Ilhas de Aland",
+  "iso2": "AX",
+  "bacen": 153
+}, {
+  "id": "254",
+  "nome": "Saint Barthélemy",
+  "nome_pt": "Coletividade de São Bartolomeu",
+  "iso2": "BL",
+  "bacen": 3598
+}, {
+  "id": "255",
+  "nome": "Curaçao",
+  "nome_pt": "Curaçao",
+  "iso2": "CW",
+  "bacen": 2003
+}, {
+  "id": "256",
+  "nome": "Saint Martin",
+  "nome_pt": "Ilha de São Martinho (França)",
+  "iso2": "SM",
+  "bacen": 6980
+}, {
+  "id": "258",
+  "nome": "Bonaire",
+  "nome_pt": "Bonaire",
+  "iso2": "AN",
+  "bacen": 990
+}, {
+  "id": "259",
+  "nome": "Antartica",
+  "nome_pt": "Antartica",
+  "iso2": "AQ",
+  "bacen": 420
+}, {
+  "id": "260",
+  "nome": "Heard Island and McDonald Islands",
+  "nome_pt": "Ilha Herad e Ilhas Macdonald",
+  "iso2": "AU",
+  "bacen": 3433
+}, {
+  "id": "261",
+  "nome": "Collectivité de Saint-Barthélemy",
+  "nome_pt": "Colectividade de São Bartolomeu",
+  "iso2": "FR",
+  "bacen": 6939
+}, {
+  "id": "262",
+  "nome": "Saint Martin",
+  "nome_pt": "Ilha de São Martinho (Países Baixos)",
+  "iso2": "SM",
+  "bacen": 6998
+}, {
+  "id": "263",
+  "nome": "Territoire des Terres australes et antarctiques françaises",
+  "nome_pt": "Território das Terras Austrais e Antárcticas Francesas",
+  "iso2": "TF",
+  "bacen": 7811
+}]
